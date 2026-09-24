@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
+112;6u#!/usr/bin/env bash
 
 # Вывести дату в формате:
 #   Freitag, 13. Oktober 2023
-date '+???' -d "$@"
+LC_TIME=de_DE.UTF-8 date '+%A, %-d. %B %Y' -d "$@"
